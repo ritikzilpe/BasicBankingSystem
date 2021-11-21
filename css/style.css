@@ -1,0 +1,115 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(15, 62, 94);
+    height: 100%;
+}
+
+
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #cccccc!important;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    color: #5f6368!important;
+}
+
+.nav-link{
+    color: #5f6368!important;
+    display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: black;
+    color: white!important;
+}
+/* navbar css ends here  */
+
+/* content css starts here  */
+.content{
+    background-color: rgb(15, 62, 94);
+    color: #d9e7f1;
+    /* padding: 50px; */
+    padding-bottom: 250px;
+}
+
+
+
+
+
+.viewall-customer{
+    
+    border-radius: 100px;
+    padding: 20px;
+    font-size: 162%;
+    background-color: #fff;
+    color: black!important;
+    transition: 0.3s;
+}
+
+.viewall-customer:hover{
+    text-decoration: none;
+    color: white!important;
+    background-color: darkgray;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+/* .viewall-customer-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.viewall-customer-content .row{
+    padding: 25vh 0;
+}
+
+.viewall-customer-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.viewall-customer-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+} */
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #cccccc;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: rgb(0, 119, 181);
+}
+
+
+/* footer css ends here  */
